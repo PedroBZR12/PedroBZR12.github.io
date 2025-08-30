@@ -61,30 +61,31 @@ a:hover{
 }
 
 b {
-  font-weight: 400;
+    font-weight: 400;
 }
 
 h1 {
-  font-size: 2.5rem;
-  font-weight: 200;
+    font-size: 2.5rem;
+    font-weight: 200;
 }
 
 h2 {
-  font-size: 2rem;
-  text-align: center;
-  letter-spacing: 0.4rem;
+    font-size: 2rem;
+    text-align: center;
+    letter-spacing: 0.4rem;
 }
 
 h3 {
-  font-size: 1.55rem;
-  text-align: left;
+    margin-top: 4rem;
+    font-size: 1.55rem;
+    text-align: left;
 }
 
 h4 {
-  color: var(--primary-color);
-  font-weight: 400;
-  font-size: 1.15rem;
-  text-align: left;
+    color: var(--primary-color);
+    font-weight: 400;
+    font-size: 1.15rem;
+    text-align: left;
 }
 
 i{
@@ -227,6 +228,7 @@ p {
 }
 
 
+
 main{
     padding: 2.5rem 1rem;
     flex-direction: column;
@@ -246,6 +248,7 @@ main{
 }
 
 .habilidades{
+    width: 100vw;
     display: flex;
     flex-direction: column;
     justify-items: flex-start;
@@ -281,6 +284,43 @@ main{
     font-size: 3rem;
     color: var(--icon-color);
     transition: color 0.3s;
+}
+
+.projetos {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    padding: 2.5rem 1rem;
+}
+
+.projetos__container{
+    padding: 1rem;
+}
+
+.projetos__cards{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.card__titulo{
+    font-size: 1.5rem;
+}
+
+.card__descricao{
+    font-size: 1rem;
+    color: var(--text-color);
+    padding-right: .2rem;
+}
+
+.card__tecnologias{
+    display: flex;
+    gap: .5rem;
+    flex-direction: row;
+    margin-bottom: 0.7rem;
 }
 
 footer {
@@ -332,5 +372,10 @@ footer p {
     footer{
         margin: 0;
     }
+
+    .card__descricao{
+ 
+    padding-right: 1rem;
+}
 }
 
