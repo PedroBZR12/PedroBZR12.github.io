@@ -227,10 +227,7 @@ p {
     color: var(--primary-color);
 }
 
-.btn__all{
-    margin: 3rem 0;
-    height: 50px;
-}
+
 
 .btn--email{
     margin-bottom: 1rem;
@@ -339,6 +336,10 @@ main{
     gap: 1.5rem
 }
 
+.margin{
+    margin-top: 10rem;
+}
+
 .about__content1, .about__content2 {
     display: flex;
     flex-direction: column;
@@ -355,6 +356,12 @@ main{
     pointer-events: none;
     border-radius: 200%;
     border: 1px solid var(--primary-border-color);
+}
+
+.description__buttons{
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
 }
 
 .about__description {
